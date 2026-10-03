@@ -14,7 +14,11 @@
       "name": "example-skills",
       "description": "Plugin mẫu chứa các skill ví dụ",
       "version": "1.0.0",
-      "source": "./plugins/example-skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./plugins/example-skills/skills/hello-world"
+      ],
       "category": "productivity",
       "keywords": ["example", "skills"]
     }

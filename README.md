@@ -29,5 +29,6 @@ Trong Claude Code:
 ## Thêm skill mới
 
 1. Tạo `plugins/<plugin>/skills/<tên-skill>/SKILL.md` với frontmatter `name` và `description`.
-2. Nếu là plugin mới: tạo `plugins/<plugin>/.claude-plugin/plugin.json` và thêm entry vào `plugins` trong `.claude-plugin/marketplace.json`.
+2. Thêm đường dẫn thư mục skill (tính từ gốc repo) vào mảng `skills` của plugin tương ứng trong `.claude-plugin/marketplace.json`.
+   Nếu là plugin mới: thêm một entry mới vào `plugins` với `source: "./"`, `strict: false` và danh sách `skills`.
 3. Tăng `version` rồi commit, push.
