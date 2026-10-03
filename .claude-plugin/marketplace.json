@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills-marketplace",
+  "owner": {
+    "name": "sontn224",
+    "email": "sontn224@gmail.com"
+  },
+  "metadata": {
+    "description": "Bộ sưu tập skills cho Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "example-skills",
+      "description": "Plugin mẫu chứa các skill ví dụ",
+      "version": "1.0.0",
+      "source": "./plugins/example-skills",
+      "category": "productivity",
+      "keywords": ["example", "skills"]
+    }
+  ]
+}

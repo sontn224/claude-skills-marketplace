@@ -1,0 +1,8 @@
+{
+  "name": "example-skills",
+  "description": "Plugin mẫu chứa các skill ví dụ",
+  "version": "1.0.0",
+  "author": {
+    "name": "sontn224"
+  }
+}
