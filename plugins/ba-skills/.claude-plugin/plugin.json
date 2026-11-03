@@ -1,0 +1,8 @@
+{
+  "name": "ba-skills",
+  "description": "24 Agent Skill cho các technique BABOK v3 có nhãn AI trên BA Skill Map (elicitation, phân tích yêu cầu, chiến lược, đánh giá giải pháp)",
+  "version": "0.1.0",
+  "author": {
+    "name": "sontn224"
+  }
+}
