@@ -24,7 +24,15 @@ Trong Claude Code:
 ```
 /plugin marketplace add sontn224/claude-skills-marketplace
 /plugin install example-skills@claude-skills-marketplace
+/plugin install ba-skills@claude-skills-marketplace
 ```
+
+## Plugin
+
+| Plugin | Nội dung |
+|---|---|
+| `example-skills` | Skill mẫu |
+| `ba-skills` | 24 skill cho technique BABOK v3 có nhãn AI (xem `plugins/ba-skills/README.md`) |
 
 ## Thêm skill mới
 

@@ -20,7 +20,50 @@
         "./plugins/example-skills/skills/hello-world"
       ],
       "category": "productivity",
-      "keywords": ["example", "skills"]
+      "keywords": [
+        "example",
+        "skills"
+      ]
+    },
+    {
+      "name": "ba-skills",
+      "description": "24 Agent Skill cho các technique BABOK v3 có nhãn AI trên BA Skill Map",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./plugins/ba-skills/skills/analyze-business-rules",
+        "./plugins/ba-skills/skills/analyze-root-cause",
+        "./plugins/ba-skills/skills/analyze-source-documents",
+        "./plugins/ba-skills/skills/build-data-dictionary",
+        "./plugins/ba-skills/skills/build-glossary",
+        "./plugins/ba-skills/skills/build-mind-map",
+        "./plugins/ba-skills/skills/design-survey-and-analyze",
+        "./plugins/ba-skills/skills/draft-data-model",
+        "./plugins/ba-skills/skills/draft-swot",
+        "./plugins/ba-skills/skills/draw-sequence-diagram",
+        "./plugins/ba-skills/skills/draw-state-diagram",
+        "./plugins/ba-skills/skills/facilitate-brainstorming",
+        "./plugins/ba-skills/skills/generate-prototype-screens",
+        "./plugins/ba-skills/skills/identify-risks",
+        "./plugins/ba-skills/skills/mine-usage-data",
+        "./plugins/ba-skills/skills/model-business-process",
+        "./plugins/ba-skills/skills/plan-requirements-workshop",
+        "./plugins/ba-skills/skills/pre-review-requirements",
+        "./plugins/ba-skills/skills/prepare-stakeholder-interview",
+        "./plugins/ba-skills/skills/research-benchmark",
+        "./plugins/ba-skills/skills/summarize-lessons-learned",
+        "./plugins/ba-skills/skills/write-nfr",
+        "./plugins/ba-skills/skills/write-use-case-spec",
+        "./plugins/ba-skills/skills/write-user-story-and-ac"
+      ],
+      "category": "productivity",
+      "keywords": [
+        "business-analysis",
+        "babok",
+        "requirements",
+        "vietnamese"
+      ]
     }
   ]
 }
